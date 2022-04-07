@@ -13,8 +13,8 @@ a {
 header {
     height: 80px;
     width: 100%;
-    background-color: black;
-    position: fixed;
+    background-color: #000;
+    position: relative;
 }
 
 .settings {
@@ -30,4 +30,35 @@ header {
     margin-right: 5px;
     padding: 5px;
     border-radius: 5px;
+}
+
+/* Stile main */
+main {
+    height: calc(100vh - 160px);
+    width: 100%;
+    background-color: #000;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+main div {
+    position: relative;
+}
+
+main img {
+    height: 140px;
+    width: 210px;
+    border: 3px solid #000;
+}
+
+main span {
+    position: absolute;
+    left: 3px;
+    bottom: 13px;
+    color: #fff;
+    background-color: rgba(150, 150, 150, 0.5);
+    font-size: 12px;
+    padding: 3px;
 }
