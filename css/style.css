@@ -1,0 +1,33 @@
+/* Stile pagina */
+* {   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Stile header */
+header {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+.settings {
+    position: absolute;
+    top: 5px;
+    right: 5px;   
+}
+
+.settings a {
+    display: inline-block;
+    background-color: #4a4a4a;
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
