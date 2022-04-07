@@ -7,6 +7,14 @@
 
 a {
     text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+span {
+    color: #fff;
+    font-size: 12px;
 }
 
 /* Stile header */
@@ -57,8 +65,58 @@ main span {
     position: absolute;
     left: 3px;
     bottom: 13px;
-    color: #fff;
     background-color: rgba(150, 150, 150, 0.5);
-    font-size: 12px;
     padding: 3px;
+}
+
+/* Stile footer */
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #222222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a i {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+/* Stile navigazione audio-video */
+#audio-video {
+    height: 100%;
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+/* Stile navigazioen principale */
+#nav-bar {
+    height: 100%;
+    width: 40%;
+    min-width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-share-square {
+    color: #4bc800;
+}
+
+/* Stile end button */
+#end {
+    height: 100%;
+    width: 100px;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#end span {
+    color: #da0f0f;
 }
